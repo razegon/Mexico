@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ZoneDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFEBEE">
+
+        <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+            android:id="@+id/strefa_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:padding="50dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/strefa_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nazwa Strefy:"
+            android:background="#A5D6A7"
+            android:padding="2dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A5D6A7"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_overview"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:text="Overview"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btn_history"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:textSize="10sp"
+            android:text="History" />
+
+        <Button
+            android:id="@+id/btn_curiosities"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:textSize="10sp"
+            android:text="Curiosities" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="description..."
+        android:textColor="#274209"
+        android:background="#A5D6A7"
+        android:padding="4dp"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="right" />
+
+</LinearLayout>

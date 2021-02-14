@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity">
+
+    <item
+        android:id="@+id/map_settings"
+        android:orderInCategory="1"
+        android:title="Map Settings"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/maptype_normal"
+                android:orderInCategory="2"
+                android:title="Normal"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/maptype_satellite"
+                android:orderInCategory="3"
+                android:title="Satellite"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/maptype_terrain"
+                android:orderInCategory="4"
+                android:title="Terrain"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/maptype_hybrid"
+                android:orderInCategory="5"
+                android:title="Hybrid"
+                app:showAsAction="never" />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/map_markers"
+        android:orderInCategory="2"
+        android:title="Markers"
+        app:showAsAction="never" >
+
+        <menu>
+
+            <item
+                android:id="@+id/zones_marker"
+                android:orderInCategory="1"
+                android:title="Arch. Zones"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/cities_marker"
+                android:orderInCategory="2"
+                android:title="Cities"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/nature_marker"
+                android:orderInCategory="3"
+                android:title="Nature"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/all_markers"
+                android:orderInCategory="4"
+                android:title="All Markers"
+                app:showAsAction="never" />
+
+        </menu>
+
+    </item>
+
+</menu>
