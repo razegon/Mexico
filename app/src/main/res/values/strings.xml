@@ -163,8 +163,35 @@ The newly discovered skeleton was 140 meters away from the Chan Hol 2 site. Alth
 Due to their distinctive features, study co-researcher Samuel Rennie suggest the existence of at least two morphologically diverse groups of people living separately in Mexico during the transition from Pleistocene to Holocene.</string>
 
 
+    <string name="snippet_teotihuacan">Discovered: known to pre-columbian civilizations\nand first european conquerors</string>
+    <string name="snippet_cholula">Discovered: known to pre-columbian civilizations\nand first european conquerors</string>
+    <string name="snippet_monte_alban">Discovered: known to pre-columbian civilizations\nand first european conquerors</string>
+    <string name="snippet_mitla">Discovered: known to pre-columbian civilizations\nand first european conquerors</string>
+    <string name="snippet_palenque">1773 - Ramón de Ordoñez y Aguilar</string>
+    <string name="snippet_uxmal">1573 - Diego de Landa</string>
+    <string name="snippet_chichen_itza">1532 - Fransisco de Montejo del Mozo</string>
+    <string name="snippet_tulum">1518 - Juan Diaz</string>
 
-    <string name="snippet_oaxaca">Population: 300,050\nAltitude: 1555m n.p.m\n Foundation: 1532</string>
+    <string name="snippet_cdmx">Population: 9 209 944\nAltitude: 2240m n.p.m\nFoundation: 1521</string>
+    <string name="snippet_taxco">Population: 50 399\nAltitude: 1778m n.p.m\nFoundation: 1529</string>
+    <string name="snippet_acapulco">Population: 658 609\nAltitude: 30m n.p.m\nFoundation: 1550</string>
+    <string name="snippet_puebla">Population: 1 576 259\nAltitude: 21358m n.p.m\nFoundation: 1531</string>
+    <string name="snippet_oaxaca">Population: 300 050\nAltitude: 1555m n.p.m\nFoundation: 1532</string>
+    <string name="snippet_san_cristobal">Population: 185 917\nAltitude: 2200m n.p.m\nFoundation: 1528</string>
+    <string name="snippet_campeche">Population: 249 623\nAltitude: 3m n.p.m\nFoundation: 1540</string>
+    <string name="snippet_merida">Population: 921 771\nAltitude: 14m n.p.m\nFoundation: 1542</string>
+    <string name="snippet_queretaro">Population: 1 049 777\nAltitude: 1820m n.p.m\nFoundation: 1531</string>
+    <string name="snippet_cancun">Population: 888 797\nAltitude: 11m n.p.m\nFoundation: 1970</string>
+
+    <string name="snippet_celestun">Celestun Biosphere Reserve, 600km\²</string>
+    <string name="snippet_sumidero"></string>
+    <string name="snippet_agua_azul"></string>
+    <string name="snippet_misol_ha"></string>
+    <string name="snippet_tule"></string>
+    <string name="snippet_cacahuamilpa"></string>
+    <string name="snippet_eiypantla"></string>
+    <string name="snippet_hierve_el_agua"></string>
+
 
 
     <string-array name="zones">
@@ -212,6 +239,6 @@ Due to their distinctive features, study co-researcher Samuel Rennie suggest the
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">hello</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps"></string>
     <string name="mapa">Mapa</string>
 </resources>

@@ -13,7 +13,26 @@
         android:background="#A30808"
         map:layout_constraintEnd_toEndOf="parent"
         map:layout_constraintStart_toStartOf="parent"
-        map:layout_constraintTop_toTopOf="parent" />
+        map:layout_constraintTop_toTopOf="parent" >
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="14sp"
+            android:background="#fff"
+            android:hint="Where do you want to go..." />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GO"
+            android:onClick="geoLocate" />
+
+
+    </Toolbar>
 
     <fragment
         android:id="@+id/map"
